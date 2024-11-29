@@ -4,6 +4,7 @@ import ProductComponent2 from './componets/ProductComponent2';
 import ProductComponent3 from './componets/ProductComponent3';
 import ProductComponent4 from "./componets/ProductComponent4"
 import StateExampleINClass from './componets/StateExampleINClass';
+import StateExampleWithFunctionComponent from "./componets/StateExampleWithFunctionComponent"
 
 function App() {
   const products = [
@@ -25,10 +26,7 @@ function App() {
   ];
   return (
     <div className="App">
-      {/* <ProductComponent2 data={products} />
-      <ProductComponent3 />
-      <ProductComponent4 data={products} /> */}
-      <StateExampleINClass />
+     <StateExampleWithFunctionComponent />
     </div>
   );
 }
