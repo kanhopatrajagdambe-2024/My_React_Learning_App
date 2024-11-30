@@ -5,9 +5,13 @@ import ProductComponent3 from './componets/ProductComponent3';
 import ProductComponent4 from "./componets/ProductComponent4"
 import StateExampleINClass from './componets/StateExampleINClass';
 import StateExampleWithFunctionComponent from "./componets/StateExampleWithFunctionComponent"
-import EventsExampleFunctionDemo, { EventExampleWithClassDemo } from './componets/EventsExamplejs';
+import EventsExampleFunctionDemo, { EventExampleWithClassDemo } from './componets/EventsExample.js';
 import EventExample2 from './componets/EventsExampleUncontrolledComponent';
 import ControlledComponentEvent from './componets/ControlledComponentEvent';
+import PrevenHandleExample from './componets/PrevenHandleExampleFunDemo.js';
+import PrevenHandleExampleFunDemo from './componets/PrevenHandleExampleFunDemo.js';
+import PrevenHandleExampleClassDemo from './componets/PrevenHandleExampleClassDemo.js';
+import DataBindingExample from './componets/DataBindingExample.js';
 
 function App() {
   const products = [
@@ -32,7 +36,8 @@ function App() {
      {/* <EventsExampleFunctionDemo />
      <EventExampleWithClassDemo /> */}
      {/* <EventExample2 /> */}
-     <ControlledComponentEvent />
+     {/* <PrevenHandleExampleFunDemo /> */}
+     <DataBindingExample />
     </div>
   );
 }
