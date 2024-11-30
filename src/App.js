@@ -5,6 +5,9 @@ import ProductComponent3 from './componets/ProductComponent3';
 import ProductComponent4 from "./componets/ProductComponent4"
 import StateExampleINClass from './componets/StateExampleINClass';
 import StateExampleWithFunctionComponent from "./componets/StateExampleWithFunctionComponent"
+import EventsExampleFunctionDemo, { EventExampleWithClassDemo } from './componets/EventsExamplejs';
+import EventExample2 from './componets/EventsExampleUncontrolledComponent';
+import ControlledComponentEvent from './componets/ControlledComponentEvent';
 
 function App() {
   const products = [
@@ -26,7 +29,10 @@ function App() {
   ];
   return (
     <div className="App">
-     <StateExampleWithFunctionComponent />
+     {/* <EventsExampleFunctionDemo />
+     <EventExampleWithClassDemo /> */}
+     {/* <EventExample2 /> */}
+     <ControlledComponentEvent />
     </div>
   );
 }
