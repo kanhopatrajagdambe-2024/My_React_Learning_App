@@ -12,6 +12,8 @@ import PrevenHandleExample from './componets/PrevenHandleExampleFunDemo.js';
 import PrevenHandleExampleFunDemo from './componets/PrevenHandleExampleFunDemo.js';
 import PrevenHandleExampleClassDemo from './componets/PrevenHandleExampleClassDemo.js';
 import DataBindingExample from './componets/DataBindingExample.js';
+import KeyEventExample from './componets/KeyEventExample.js';
+import RegisterComponent from './componets/RegisterComponent.js';
 
 function App() {
   const products = [
@@ -37,7 +39,7 @@ function App() {
      <EventExampleWithClassDemo /> */}
      {/* <EventExample2 /> */}
      {/* <PrevenHandleExampleFunDemo /> */}
-     <DataBindingExample />
+     <RegisterComponent />
     </div>
   );
 }
